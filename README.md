@@ -1,16 +1,27 @@
-# my_store_app
+InvoicePro
 
-A new Flutter project.
+Overview
 
-## Getting Started
+InvoicePro is a Flutter-based invoicing application that allows users to manage their shopping experience efficiently. The app features user authentication, product browsing, cart management, address selection, and a seamless checkout process with PDF invoice generation.
 
-This project is a starting point for a Flutter application.
+Features
 
-A few resources to get you started if this is your first Flutter project:
+User Authentication: Secure login system.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Home Screen: Displays available products.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Products: Browse and view product details.
+
+Add to Cart: Easily add products to the shopping cart.
+
+Address Management: Add and manage addresses for delivery.
+
+Proceed to Checkout: Confirm order and generate an invoice in PDF format.
+
+Tech Stack
+
+Frontend: Flutter (Dart)
+
+State Management: Provider 
+
+PDF Generation: flutter_pdf 
